@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'BinartOCTask_Example' do
+  pod 'BinartOCTask', :path => '../'
+
+  target 'BinartOCTask_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+  end
+end
