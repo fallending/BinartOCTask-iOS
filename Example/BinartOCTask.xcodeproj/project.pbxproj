@@ -368,10 +368,14 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-BinartOCTask_Example/Pods-BinartOCTask_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/BinartOCTask/BinartOCTask.framework",
+				"${BUILT_PRODUCTS_DIR}/BinartOCUtility/BinartOCUtility.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BinartOCTask.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BinartOCUtility.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

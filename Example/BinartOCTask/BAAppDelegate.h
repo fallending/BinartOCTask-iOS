@@ -12,4 +12,6 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property (nonatomic, assign) int64_t regenerateCount;
+
 @end

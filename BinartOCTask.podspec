@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BinartOCTask'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of BinartOCTask.'
+  s.version          = '0.1.1'
+  s.summary          = '一切与任务管理模型有关的API.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  一切与任务管理模型有关的API: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/fallending/BinartOCTask'
+  s.homepage         = 'https://github.com/fallending/BinartOCTask-iOS'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'fallending' => 'fengzilijie@qq.com' }
-  s.source           = { :git => 'https://github.com/fallending/BinartOCTask.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/fallending/BinartOCTask-iOS.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -38,5 +38,7 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+
+  s.dependency 'BinartOCUtility'
+  s.dependency 'YYModel'
 end
